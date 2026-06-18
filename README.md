@@ -21,7 +21,7 @@ MODBUS-Master-Slave-Communication/
                     │    Master Arduino     │
                     │     (master.ino)      │
                     │    SoftwareSerial     │
-                    │   A0 (TX), A1 (RX)   │
+                    │   A0 (TX), A1 (RX)    │
                     └──────────┬────────────┘
                                │
                 RS-485 / SoftwareSerial @ 4800 baud
@@ -32,8 +32,8 @@ MODBUS-Master-Slave-Communication/
 ┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐
 │   Slave ID: 4    │ │   Slave ID: 3    │ │   Slave ID: 2    │
 │  Current Meter   │ │ Flow Rate Meter  │ │  SELEC PID500-U  │
-│  (slave.ino +   │ │   (slave.ino)    │ │   Temperature    │
-│   ADS1115 ADC)  │ │                  │ │   Controller     │
+│  (slave.ino +    │ │   (slave.ino)    │ │   Temperature    │
+│   ADS1115 ADC)   │ │                  │ │   Controller     │
 └──────────────────┘ └──────────────────┘ └──────────────────┘
 ```
 
